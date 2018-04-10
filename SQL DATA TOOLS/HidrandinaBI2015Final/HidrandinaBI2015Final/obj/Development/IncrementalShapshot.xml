@@ -1,0 +1,124 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>HidrandinaBI2015Final</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>1fjeNg7xCIyf21eRFoCuCMUPBX8=08/12/2015 2:14:2708/12/2015 2:14:27</TimeStamp>
+        <ID>
+          <String>Hidrandina OLAP VF</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>KtZTJuAycqw0YTdoJ1R8HKwd8kU=08/12/2015 2:14:5608/12/2015 2:14:55</TimeStamp>
+        <ID>
+          <String>Hidrandina OLAP VF</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OhSVqWz3r6JEOQK4/u6Mgsku/mQ=08/12/2015 2:24:2208/12/2015 2:16:28</TimeStamp>
+        <ID>
+          <String>Dim Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4MiXs1CK5h5HAuHiAL/7/FVa70M=08/12/2015 2:24:2208/12/2015 2:16:28</TimeStamp>
+        <ID>
+          <String>Dim Incidencia</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+2gP9rfMeizLDwKiCR/fhRuFVSg=08/12/2015 2:24:2208/12/2015 2:16:28</TimeStamp>
+        <ID>
+          <String>Dim Reclamo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>N2jaYSPSdIVUld49Vj/ntcFv4j4=08/12/2015 2:24:2108/12/2015 2:16:28</TimeStamp>
+        <ID>
+          <String>Dim Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>c24R76HupBaw3CBC5NHUN8OJxdY=08/12/2015 2:24:2108/12/2015 2:16:28</TimeStamp>
+        <ID>
+          <String>Dim Organizacion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>z8+v9tsh4CHmXpTB89c6QzcHMZg=08/12/2015 2:16:2908/12/2015 2:16:28</TimeStamp>
+        <ID>
+          <String>Dim Medio Pago</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>G1xIquYqCz97Bi/qu9v0X3sFqOI=08/12/2015 2:24:2108/12/2015 2:16:28</TimeStamp>
+        <ID>
+          <String>Dim Consumo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZWlt1csT0hZjlGD7pPS11lloKxM=08/12/2015 2:24:2108/12/2015 2:16:28</TimeStamp>
+        <ID>
+          <String>Dim Concepto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IiYv9fHIdFFZ6bTPab8mq5UjEjw=08/12/2015 2:16:2908/12/2015 2:16:28</TimeStamp>
+        <ID>
+          <String>Dim Parametro</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JegmYpyp/OeFVhcsS/b4ogebUBM=08/12/2015 2:24:2108/12/2015 2:16:28</TimeStamp>
+        <ID>
+          <String>Dim Mantenimiento</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>kViGVnnbXKvwZVHSPG33xzPIfV8=08/12/2015 3:42:3608/12/2015 2:16:27UgRzwejhu/BavK9SdljKLBmz3ec=08/12/2015 2:16:2908/12/2015 2:16:27</TimeStamp>
+        <ID>
+          <String>Hidrandina OLAP VF</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>OM+JZFf6lD5cqnGuy+9xYBXTR9E=08/12/2015 2:11:1908/12/2015 2:11:17</TimeStamp>
+      <ID>
+        <String>HidrandinaBI2015Final</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2015-12-08T08:42:43.9Z</LastDeployed>
+</DeploymentSnapshot>

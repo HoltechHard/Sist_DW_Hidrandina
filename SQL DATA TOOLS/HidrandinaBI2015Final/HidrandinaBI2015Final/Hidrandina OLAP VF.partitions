@@ -1,0 +1,125 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0bd42eb2-a735-4f8e-8759-9addbfeed9cd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Hidrandina OLAP VF</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Hecho Atendimiento Incidencia</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c9cde6a3-2f6e-473a-bc95-f843890eb1e4">
+          <ID>Hecho Atendimiento Incidencia</ID>
+          <Name>Hecho Atendimiento Incidencia</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e8e4d20e-6b23-48b0-8e39-17431d18cf9d">
+            <DataSourceViewID>Hidrandina OLAP VF</DataSourceViewID>
+            <TableID>dbo_Hecho_AtendimientoIncidencia</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Hecho Atendimiento Reclamos</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="4f758002-ba17-4c06-aa96-5a96058f4c78">
+          <ID>Hecho Atendimiento Reclamos</ID>
+          <Name>Hecho Atendimiento Reclamos</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0a6b564a-1daf-4d0a-8d67-a89b4ea4f994">
+            <DataSourceViewID>Hidrandina OLAP VF</DataSourceViewID>
+            <TableID>dbo_Hecho_AtendimientoReclamos</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Hecho Cobranza</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="f6e4f834-2946-46ad-96e0-d247453fafdc">
+          <ID>Hecho Cobranza</ID>
+          <Name>Hecho Cobranza</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ae1ce518-cab0-4d1b-8114-dfaff9ac480a">
+            <DataSourceViewID>Hidrandina OLAP VF</DataSourceViewID>
+            <TableID>dbo_Hecho_Cobranza</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Hecho Facturacion</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="74400cb1-ff4c-4846-93a3-7cf1418edec0">
+          <ID>Hecho Facturacion</ID>
+          <Name>Hecho Facturacion</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4bee5e64-544a-4146-9bf4-efbef649500b">
+            <DataSourceViewID>Hidrandina OLAP VF</DataSourceViewID>
+            <TableID>dbo_Hecho_Facturacion</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Hecho Impacto Matto</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="243dfe5d-e291-4c99-aa25-b834b6f5ef1e">
+          <ID>Hecho Impacto Matto</ID>
+          <Name>Hecho Impacto Matto</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f73fc815-87fa-4a15-b9c5-532292d7a3e7">
+            <DataSourceViewID>Hidrandina OLAP VF</DataSourceViewID>
+            <TableID>dbo_Hecho_ImpactoMatto</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Hecho Meta Consumo</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="829f391f-3548-4dac-aedd-7631dfb12160">
+          <ID>Hecho Meta Consumo</ID>
+          <Name>Hecho Meta Consumo</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5ae55bb7-4f97-4b73-a1a7-f671ec965bab">
+            <DataSourceViewID>Hidrandina OLAP VF</DataSourceViewID>
+            <TableID>dbo_Hecho_MetaConsumo</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

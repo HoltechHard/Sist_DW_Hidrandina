@@ -1,0 +1,196 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d5340444-003d-41f7-928c-8e18cd621805" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Reclamo</ID>
+  <Name>Dim Reclamo</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1422" scrolltop="-5199" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6773" y="13547" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimReclamo" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3466" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800008a0d00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimReclamo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1422</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5199</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3aaa9afe-1e90-4407-9153-bd303eddc296">
+    <DataSourceViewID>Hidrandina OLAP VF</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="23bf2762-cf0d-42b7-b512-24c66d15a22a">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="aa826440-9e68-433c-a398-880793393c56">
+      <ID>Key Reclamo</ID>
+      <Name>Key Reclamo</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5100a99c-5c0e-49af-a2d6-098f5070601c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5ee8b8d9-29ac-45f9-9f9e-1c6e8cb370f0">
+            <TableID>dbo_DimReclamo</TableID>
+            <ColumnID>KeyReclamo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="73947856-e639-4c36-a4e4-04ba12a33a16">
+          <AttributeID>Tipo Reclamo</AttributeID>
+          <Name>Tipo Reclamo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ecc41387-d812-4b32-8de2-0b6f8eb0d610">
+          <AttributeID>Nivel Gravedad</AttributeID>
+          <Name>Nivel Gravedad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="40c61243-f05f-4027-ad5d-6137c3da7b0b">
+          <AttributeID>Nivel Atendimiento</AttributeID>
+          <Name>Nivel Atendimiento</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7fd0d213-e8eb-4edf-af74-2ec04412da9f">
+      <ID>Tipo Reclamo</ID>
+      <Name>Tipo Reclamo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5d06dde2-9b31-4728-acd5-e0e4b7c9b866">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3cfa1d74-e171-4b5a-bc89-f7692f203663">
+            <TableID>dbo_DimReclamo</TableID>
+            <ColumnID>TipoReclamo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1890bf7e-1d41-40c6-b69f-88c3b85151ed">
+      <ID>Nivel Gravedad</ID>
+      <Name>Nivel Gravedad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7bd7532d-7aee-44f7-871a-923b67f59407">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c7561e85-4e8e-47c6-97e0-547162b1f213">
+            <TableID>dbo_DimReclamo</TableID>
+            <ColumnID>NivelGravedad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7444bad5-9d39-46a2-861e-c2df226e840b">
+      <ID>Nivel Atendimiento</ID>
+      <Name>Nivel Atendimiento</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b96ccb64-1ca2-4da9-984c-344093010e68">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="af37ce2b-d673-4efe-9560-66a3895dce1e">
+            <TableID>dbo_DimReclamo</TableID>
+            <ColumnID>NivelAtendimiento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="9097f0dc-6961-4593-9353-052d26848fc8">
+      <ID>Jerarquía</ID>
+      <Name>Reclamos-Gravedad</Name>
+      <Levels>
+        <Level dwd:design-time-name="d2bc7a2d-0bef-4d34-aba8-1c5f3dee8787">
+          <ID>Tipo Reclamo</ID>
+          <Name>Tipo Reclamo</Name>
+          <SourceAttributeID>Tipo Reclamo</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="3723ddbb-21af-404d-9070-3c87ea453429">
+          <ID>Nivel Gravedad</ID>
+          <Name>Nivel Gravedad</Name>
+          <SourceAttributeID>Nivel Gravedad</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="472f6a1b-8d09-4357-ba74-d691211f1716">
+      <ID>Jerarquía 1</ID>
+      <Name>Reclamos-Atendimiento</Name>
+      <Levels>
+        <Level dwd:design-time-name="4b163a72-307e-4e67-8ec4-4b66b224d1ee">
+          <ID>Tipo Reclamo</ID>
+          <Name>Tipo Reclamo</Name>
+          <SourceAttributeID>Tipo Reclamo</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="aa9fe77b-40d4-41d5-aed8-df7a6d2ffd0f">
+          <ID>Nivel Atendimiento</ID>
+          <Name>Nivel Atendimiento</Name>
+          <SourceAttributeID>Nivel Atendimiento</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

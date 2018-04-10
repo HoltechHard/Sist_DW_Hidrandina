@@ -1,0 +1,185 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0854e14e-a4b9-464e-98c9-55cbd19cafbe" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Mantenimiento</ID>
+  <Name>Dim Mantenimiento</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1356" scrolltop="-5199" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6350" y="13547" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimMantenimiento" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3598" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800000e0e00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimMantenimiento" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1356</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5199</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7725cbdd-d823-427a-89d6-54d8d6a14113">
+    <DataSourceViewID>Hidrandina OLAP VF</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="67529f87-774d-43a1-99d4-459363fe2050">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="1aaab875-eed5-473b-8192-11d74d88c33e">
+      <ID>Key Mantenimiento</ID>
+      <Name>Key Mantenimiento</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3e7e8b15-6a75-49be-9d9c-76a0eabc9215">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f8c9a98d-9e69-4c5e-a3b8-83ceca294591">
+            <TableID>dbo_DimMantenimiento</TableID>
+            <ColumnID>KeyMantenimiento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e32acf97-09a8-4088-8e78-f30217cb7014">
+          <AttributeID>Tipo Mantenimiento</AttributeID>
+          <Name>Tipo Mantenimiento</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="aa707d61-910f-4423-929f-3f1950428092">
+          <AttributeID>Fallo</AttributeID>
+          <Name>Fallo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="42a5ccd2-3f75-43fa-a425-20be34292ffd">
+          <AttributeID>Nivel Gravedad</AttributeID>
+          <Name>Nivel Gravedad</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="af6ef7ac-2e5f-482f-b4c8-989751af3b76">
+      <ID>Tipo Mantenimiento</ID>
+      <Name>Tipo Mantenimiento</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6e4f6090-b751-42f3-87f1-5636e0f90ade">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f61e6ad4-bf22-4a3f-ba5e-458d6c2ea41b">
+            <TableID>dbo_DimMantenimiento</TableID>
+            <ColumnID>TipoMantenimiento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="382a1237-dca1-4e9c-a199-5158d95090a0">
+      <ID>Fallo</ID>
+      <Name>Fallo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dcd8c556-cd32-4ce5-94b6-e9c613aaa7fb">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9103708d-5590-4fc1-a529-2d30159123af">
+            <TableID>dbo_DimMantenimiento</TableID>
+            <ColumnID>Fallo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2bc27118-ac76-43bb-8846-9fdb04adab9f">
+      <ID>Nivel Gravedad</ID>
+      <Name>Nivel Gravedad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4ff4f7b1-0546-4632-81ea-153402c1e0ca">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="70ec94af-84ca-4190-a6c3-6930518d7488">
+            <TableID>dbo_DimMantenimiento</TableID>
+            <ColumnID>NivelGravedad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="96f5d979-5bfa-43d7-947d-405d99472d5c">
+      <ID>Jerarquía</ID>
+      <Name>Mantenimientos</Name>
+      <Levels>
+        <Level dwd:design-time-name="f6a3d90d-fc5f-4bb5-b442-95a597404291">
+          <ID>Tipo Mantenimiento</ID>
+          <Name>Tipo Mantenimiento</Name>
+          <SourceAttributeID>Tipo Mantenimiento</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d8bfd689-2c12-4935-a969-ac4cc89c5abd">
+          <ID>Fallo</ID>
+          <Name>Fallo</Name>
+          <SourceAttributeID>Fallo</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="39aa9cf7-2c91-4731-976e-08d978a501c1">
+          <ID>Nivel Gravedad</ID>
+          <Name>Nivel Gravedad</Name>
+          <SourceAttributeID>Nivel Gravedad</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
