@@ -1,2 +1,2 @@
 # Sist_DW_Hidrandina
-Requeriment Analysis, KPIs, Dimensional Analysis, ETL, Cubes
+Requirement Analysis, KPIs, Dimensional Analysis, ETL, Cubes
